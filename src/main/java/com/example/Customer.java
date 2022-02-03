@@ -10,10 +10,10 @@ public class Customer {
         String paymentType = scanner.next();
         System.out.println("Payment Type is "+paymentType);
 
-        System.out.println("\n Please enter amount to Pay");
+        System.out.println("\nPlease enter amount to Pay");
         Scanner scanner1 = new Scanner(System.in);
-        String amount = scanner.next();
-        System.out.println("Amount is"+amount);
+        float amount = scanner1.nextFloat();
+        System.out.println("Amount is "+amount);
 
         PaymentContext paymentContext = new PaymentContext();
 

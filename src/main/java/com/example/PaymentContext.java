@@ -9,7 +9,7 @@ public class PaymentContext {
     public IPaymentStrategy getPaymentStrategy(){
         return paymentStrategy;
     }
-    public void pay(String amount){
+    public void pay(float amount){
         paymentStrategy.pay(amount);
     }
 }
